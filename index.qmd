@@ -4,18 +4,16 @@ about:
   id: about-block
   image: "img/amy.jpg"
   links:
-    - icon: twitter
-      text: Twitter
-      href: https://twitter.com/MarvinSchmittML
-    - icon: github
-      text: Github
-      href: https://github.com/marvinschmitt
+
     - icon: linkedin
       text: LinkedIn
-      href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
+      href: https://www.linkedin.com/in/maleekcusack/
     - icon: envelope
       text: Email
       href: "mcc139@case.edu"  
+    - icon: envelope
+      text: CV
+      href: "cv/Cusack_M_Resume.pdf"  
 ---
 
 ::: {#about-block}
