@@ -5,3 +5,5 @@
 
 /.quarto/
 .DS_Store
+.httr-oauth
+.quarto
