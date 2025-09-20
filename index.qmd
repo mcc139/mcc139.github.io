@@ -10,7 +10,7 @@ about:
       href: https://www.linkedin.com/in/maleekcusack/
     - icon: envelope
       text: Email
-      href: "mcc139@case.edu"  
+      href: "mailto:mcc139@case.edu" 
     - icon: envelope
       text: CV
       href: "cv/Cusack_M_Resume.pdf"  
@@ -25,8 +25,11 @@ My name is Maleek Cusack and I am an MPH student at CWRU as well as an intern at
 
 I am currently eveloping my skills in data management, analysis, and visualization using tools such as R, Canva, SAS, Python, and ARCGis. I plan to be a friendly and accessible face in the oftentimes opaque world of governmental public health.
 
-The image is Amy from Kitchen Nightmares until I get an updated headshot. (You should definitely watch her episode on YouTube)
+The image is Amy from Kitchen Nightmares until I get an updated headshot. (You should definitely watch her episode on YouTube).
 
+Currently I am working on cleaning and presenting data at CDPH and producing yearly status reports for a variety of reportable conditions. I am also learning about their work with the CDC on updating their data infrastructure.
+
+I completed my undergraduate at Oberlin college with a BA in Biology and my most recent position was as a Laboratory Technologist at Cleveland Clinic in the Manual Hematology lab.
 
 ```{=html}
 <div  style="margin: 30px; text-align: center;">
