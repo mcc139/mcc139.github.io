@@ -15,7 +15,7 @@ about:
       href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
     - icon: envelope
       text: Email
-      href: "mailto:mail.marvinschmitt@gmail.com"  
+      href: "mcc139@case.edu"  
 ---
 
 ::: {#about-block}
@@ -23,9 +23,12 @@ about:
 
 # Welcome to my website!
 
-My name is Maleek Cusack... Put something here 
+My name is Maleek Cusack and I am an MPH student at CWRU as well as an intern at the Cleveland Department of Public Health. The areas of interest are epidemiology; disease surveillance; and governmental intervention programming, implementation, and evaluation.
 
-#BIOO
+I am currently eveloping my skills in data management, analysis, and visualization using tools such as R, Canva, SAS, Python, and ARCGis. I plan to be a friendly and accessible face in the oftentimes opaque world of governmental public health.
+
+The image is Amy from Kitchen Nightmares until I get an updated headshot. (You should definitely watch her episode on YouTube)
+
 
 ```{=html}
 <div  style="margin: 30px; text-align: center;">

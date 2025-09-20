@@ -3,7 +3,7 @@
 # website settings
 website:
   title: "Maleek Cusack"                                # Your name
-  description: "Gandalf is a renowned wizard and scholar of Middle-earth"   # A brief slogan (optional)
+  description: ""   # A brief slogan (optional)
   image: img/my_image.jpg
   
   favicon: img/favicon.png
@@ -20,19 +20,15 @@ website:
       - text: "Photography"
         href: photography/index.qmd
       - text: "CV"
-        href: cv/index.qmd
+        href: cv/Cusack_M_Resume.pdf
     
     # your social media handles
     right:
-      - icon: folder-symlink
-        href: https://www.marvinschmitt.com/blog/website-tutorial-quarto/
-      - icon: twitter
-        href: https://twitter.com/MarvinSchmittML
       - icon: linkedin
-        href: https://www.linkedin.com/in/marvin-schmitt-a85b321a2/
+        href: https://www.linkedin.com/feed/
       - icon: envelope
         aria-label: email
-        href: "mailto:mail.marvinschmitt@gmail.com"  
+        href: "mcc139@case.edu"  
   
   
 
