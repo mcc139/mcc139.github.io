@@ -14,9 +14,6 @@ format:
 ::: {.card title="Wow!"}
 WHAT DOES THIS DO
 :::
-
-## Row {.flow}
-
 ```{r chunk1, include = FALSE}
 #| output: false
 install.packages(c("reticulate","shiny","shinydashboard"),repos = "http://cran.us.r-project.org")
@@ -26,6 +23,9 @@ virtualenv_create("my-quarto-env")
 use_virtualenv("my-quarto-env", required = TRUE)
 py_install(c("ipyleaflet","plotly","pandas"), pip = TRUE)
 ```
+
+## Row {.flow}
+
 
 ```{r chunk2}
 #| content: valuebox
