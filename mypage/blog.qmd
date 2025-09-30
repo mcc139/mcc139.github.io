@@ -5,7 +5,7 @@ format: html
 
 ## A really great blog
 
-<img src="book.jpg" style="height: 100%; width: 100%; object-fit: contain"/>
+<img src="book.jpg" style="height: 100%; width: 100%; object-fit: contain;">
 
 
 Here is where I will put a blog detailing the project I will complete for this course.
