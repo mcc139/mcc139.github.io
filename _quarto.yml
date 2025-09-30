@@ -19,6 +19,8 @@ website:
         href: mypage/index.qmd
       - text: "CV"
         href: cv/Cusack_M_Resume.pdf
+      - text: "Blog"
+        href: mypage/blog.qmd
     
     # your social media handles
     right:
