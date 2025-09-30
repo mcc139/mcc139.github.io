@@ -18,6 +18,7 @@ WHAT DOES THIS DO
 ## Row
 
 ```{r chunk1, include = FALSE}
+#| output: false
 install.packages(c("reticulate","shiny","shinydashboard"),repos = "http://cran.us.r-project.org")
 library(reticulate)
 install_python(version = "3.11:latest")
