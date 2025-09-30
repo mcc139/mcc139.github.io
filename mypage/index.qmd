@@ -1,28 +1,147 @@
----
-about:
-  template: jolla
-  id: about-block
-  image: "img/amy.jpg"
-  links:
-
-    - icon: github
-      text: Github
-      href: https://github.com/mcc139
-    - icon: linkedin
-      text: LinkedIn
-      href: https://www.linkedin.com/in/maleekcusack/
-    - icon: envelope
-      text: Email
-      href: "mailto:mail.mcc139@case.edu"  
+--- 
+title: "Palmer Penguins"
+author: "Cobblepot Analytics"
+format: 
+  dashboard:
+    scrolling: true
+    logo: images/penguins.png
+    nav-buttons: [linkedin, twitter, github]
 ---
 
-::: {#about-block}
+
+# Bills 
+
+::: {.card title="Wow!"}
+WHAT DOES THIS DO
 :::
 
-#CV
+## Row
 
-```{=html}
-<div  style="margin: 30px; text-align: center;">
-<a class="btn btn-primary" href="https://www.marvinschmitt.com/blog/website-tutorial-quarto/" role="button" target="_blank" style="padding: 15px 30px;">View the tutorial for this template (+ download link)</a>
-</div>
+```{r chunk1, include = FALSE}
+install.packages(c("reticulate","shiny","shinydashboard"),repos = "http://cran.us.r-project.org")
+library(reticulate)
+install_python(version = "3.11:latest")
+virtualenv_create("my-quarto-env") 
+use_virtualenv("my-quarto-env", required = TRUE)
+py_install(c("ipyleaflet","plotly","pandas"), pip = TRUE)
+```
+
+```{r chunk2}
+#| content: valuebox
+#| title: "Love!"
+list(
+  icon = "trash",
+  color = "success",
+  value = 35
+)
+```
+
+```{python chunk3}
+#| output: false
+# (code that produces unexpected output) How to stop unwanted output
+```
+
+```{python chunk4}
+#| content: valuebox
+#| title: "Comments per day"
+dict(
+  icon = "chat",
+  color = "info",
+  value = 67
+)
+```
+
+## Row
+
+```{r chunk5}
+library(leaflet)
+
+lat <- 48
+long <- 350
+
+cat("title=", "World Map at", lat, long)
+
+leaflet() |> addTiles() |> 
+  setView(long, lat, zoom = 2)
+```
+
+## Row {height=40%}
+```{r chunk6}
+knitr::kable(mtcars)
+```
+::: {.card}
+This text will be displayed within a card
+:::
+
+## Row {height=30%}
+
+```{python chunk7}
+```
+
+```{r chunk8}
+library(leaflet)
+
+lat <- 48
+long <- 350
+
+cat("title=", "Dynamic title", lat, long)
+
+leaflet() |> addTiles() |> 
+  setView(long, lat, zoom = 2)
+```
+
+# Flippers {orientation="columns" scrolling="true"}
+
+```{r chunk9}
+library(leaflet)
+leaflet() %>%
+  addTiles() %>% 
+  addMarkers(lng=174.768, lat=-36.852, 
+             popup="The birthplace of R")
+```
+## Row {height=70%}
+```{r chunk10}
+library(bslib)
+library(bsicons)
+library(shiny)
+library(shinydashboard)
+value_box(
+  title = "A number.",
+  value = textOutput("62"),
+  showcase = bs_icon("music-note-beamed")
+)
+```
+
+## Column
+
+```{python chunk11}
+```
+
+::: {.card}
+The sample size was `{python} sample`. The mean reported 
+rating was `{python} rating`.
+:::
+
+## Row {height=30%}
+
+```{python chunk12}
+```
+
+```{r chunk13}
+#| fig-width: 5
+#| fig-height: 4
+plot(pressure)
+```
+
+## Row {.tabset}
+
+```{python chunk14}
+#| title: Chart 2
+#| layout-ncol: 2
+
+import plotly.express as px
+df = px.data.tips()
+
+px.box(df, x="sex", y="total_bill", color="smoker")
+px.violin(df, x="sex", y="total_bill", color="smoker")
 ```

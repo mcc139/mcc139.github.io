@@ -15,8 +15,8 @@ website:
     
     # your sub-pages
     left:
-      - text: "About me"
-        href: projects/index.qmd
+      - text: "Dashboard"
+        href: mypage/index.qmd
       - text: "CV"
         href: cv/Cusack_M_Resume.pdf
     

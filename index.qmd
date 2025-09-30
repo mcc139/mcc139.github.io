@@ -13,7 +13,11 @@ about:
       href: "mailto:mcc139@case.edu" 
     - icon: envelope
       text: CV
-      href: "cv/Cusack_M_Resume.pdf"  
+      href: "cv/Cusack_M_Resume.pdf"
+      
+toc: true
+toc-title: Contents
+toc-location: left  
 ---
 
 ::: {#about-block}
