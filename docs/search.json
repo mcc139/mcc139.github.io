@@ -21,6 +21,13 @@
     "text": "The History of the War of the Ring\n\narXiv Preprint | Code\nI am creating a comprehensive and detailed history of the conflict that goes beyond the surface-level events. By gathering information from a variety of sources, including my own memories, written accounts, and oral histories, I hope to shed new light on this important period in Middle-earth’s history and provide valuable insights into the motivations and actions of the various players involved.\n\nView the tutorial for this template (+ download link)"
   },
   {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Welcome to my website!",
+    "section": "",
+    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n  \n    \n     CV\n  \n\n\n\n\nWelcome to my website!\nMy name is Maleek Cusack and I am an MPH student at CWRU as well as an intern at the Cleveland Department of Public Health. The areas of interest are epidemiology; disease surveillance; and governmental intervention programming, implementation, and evaluation.\nI am currently eveloping my skills in data management, analysis, and visualization using tools such as R, Canva, SAS, Python, and ARCGis. I plan to be a friendly and accessible face in the oftentimes opaque world of governmental public health.\nThe image is Amy from Kitchen Nightmares until I get an updated headshot. (You should definitely watch her episode on YouTube).\nCurrently I am working on cleaning and presenting data at CDPH and producing yearly status reports for a variety of reportable conditions. I am also learning about their work with the CDC on updating their data infrastructure.\nI completed my undergraduate at Oberlin college with a BA in Biology and my most recent position was as a Laboratory Technologist at Cleveland Clinic in the Manual Hematology lab.\n\nView the tutorial for this template (+ download link)"
+  },
+  {
     "objectID": "cv/index.html",
     "href": "cv/index.html",
     "title": "Curriculum vitae",
@@ -28,11 +35,18 @@
     "text": "Download current CV\n  \n\n\n  \n\n\nView the tutorial for this template (+ download link)"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Welcome to my website!",
+    "objectID": "mypage/blog.html",
+    "href": "mypage/blog.html",
+    "title": "blog",
     "section": "",
-    "text": "LinkedIn\n  \n  \n    \n     Email\n  \n  \n    \n     CV\n  \n\n\n\n\nWelcome to my website!\nMy name is Maleek Cusack and I am an MPH student at CWRU as well as an intern at the Cleveland Department of Public Health. The areas of interest are epidemiology; disease surveillance; and governmental intervention programming, implementation, and evaluation.\nI am currently eveloping my skills in data management, analysis, and visualization using tools such as R, Canva, SAS, Python, and ARCGis. I plan to be a friendly and accessible face in the oftentimes opaque world of governmental public health.\nThe image is Amy from Kitchen Nightmares until I get an updated headshot. (You should definitely watch her episode on YouTube).\nCurrently I am working on cleaning and presenting data at CDPH and producing yearly status reports for a variety of reportable conditions. I am also learning about their work with the CDC on updating their data infrastructure.\nI completed my undergraduate at Oberlin college with a BA in Biology and my most recent position was as a Laboratory Technologist at Cleveland Clinic in the Manual Hematology lab.\n\nView the tutorial for this template (+ download link)"
+    "text": "&lt;img src=“mypage/book.jpg” style=“height: 100%; width: 100%;\nHere is where I will put a blog detailing the project I will complete for this course. The dashboard is currently built with a combination of python and r code and does not contain actually content beyond me experimenting with how the layout is affected by various changes.\n\nView the tutorial for this template (+ download link)"
+  },
+  {
+    "objectID": "mypage/blog.html#a-really-great-blog",
+    "href": "mypage/blog.html#a-really-great-blog",
+    "title": "blog",
+    "section": "",
+    "text": "&lt;img src=“mypage/book.jpg” style=“height: 100%; width: 100%;\nHere is where I will put a blog detailing the project I will complete for this course. The dashboard is currently built with a combination of python and r code and does not contain actually content beyond me experimenting with how the layout is affected by various changes.\n\nView the tutorial for this template (+ download link)"
   },
   {
     "objectID": "photography/index.html",
