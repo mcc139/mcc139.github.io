@@ -15,7 +15,7 @@ format:
 WHAT DOES THIS DO
 :::
 
-## Row
+## Row {.flow}
 
 ```{r chunk1, include = FALSE}
 #| output: false
@@ -52,7 +52,7 @@ dict(
 )
 ```
 
-## Row
+## Row {.flow}
 
 ```{r chunk5}
 library(leaflet)
@@ -100,7 +100,7 @@ leaflet() %>%
   addMarkers(lng=174.768, lat=-36.852, 
              popup="The birthplace of R")
 ```
-## Row {height=70%}
+## Row {height=70%, .flow}
 ```{r chunk10}
 library(bslib)
 library(bsicons)
