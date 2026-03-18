@@ -1,0 +1,19 @@
+---
+title: "Blog"
+format: html
+---
+
+## Upcoming Materials
+
+Currently I do not have any industry-grade products to add to my portfolio, but here is a list of upcoming products and a rough timeline for completion.
+
+### Spring 2026: CDPH Infographic, Lead Exposure Report, and CWRU MPH Practicum Poster
+<!-- - The two main products I will have contributed to by the end of my internship are an infographic for STI incidence in the City of Cleveland's jurisdiction for 2023 and 2024 as well as a data brief on lead exposure 2025. The previous brief can be found [here](https://clevelandhealth.org/assets/documents/health/health_statistics/Lead_Poisoning_Data_Brief_2023.pdf). The STI infographic product will be similar to previously released reports, but much of the work has focused on database management, workflow improvement, and reuse future reports. The 2025 lead data brief will provide an update to the status of Cleveland's lead exposure in addition to new analyses and visualizations that will provide additional interesting insights to the public that will also inform internal lead surveillance processes. The primary software utilized for these projects is R, Canva, and ArcGis Pro. -->
+- As part of the CWRU MPH Culminating Experience, I will be producing a practicum poster that captures my overall experience at CDPH. Specifically, it will feature the aforementioned products as well as go into the practices and collaborations that were used to complete them. The poster will be presented at the MPH program's Public Health Innovations Conference at Wednesday, April 15th.
+
+### Spring/Summer 2026: CDPH Dashboards
+- Additionally if time allows it, I will participate in the production of CDPH Epidemiology's dashboards. CDPH Epi is looking to release the first version of their mortality dashboard, and is working with data engineers to create a live dashboard with a sustainable ETL infrastrcuture. The primary software will be utilized for this project will be R, Python, and Azure Databricks.
+
+### Summer/Fall 2026: CWRU MPH Capstone
+- As the final part of the MPH Culminating Experience I am planning on creating documentation for an accessible ETL methodology combining aspects of public health surveillance, data engineering, and script writing to redo my practicum materials but leveraging additional methods and technologies that are generally beyond the scope of epidemiologist. My goal will be to bridge the gap between the the data infrastructure public health epidemiologist rely on and their day-to-day data analysis and surevillance activities. This project will use common surveillance tools such as R, Python, and ArcGis Pro in addition to leveraging ETL pipelines, Data lakes and warehouses, and API to create a workflow that centralizes the often disjointed practice of public health surveillance.
+
